@@ -8,13 +8,13 @@ def convert_to_celsius(fahrenheit):
     """
     Converts temperature from Fahrenheit to Celsius using the global conversion factor.
     """
-    return (fahrenheit - FREEZING_POINT_FAHRENHEIT) * FAHRENHEIT_TO_CELSIUS_FACTOR
+    return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit(celsius):
     """
     Converts temperature from Celsius to Fahrenheit using the global conversion factor.
     """
-    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + FREEZING_POINT_FAHRENHEIT
+    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
 def main():
     """
