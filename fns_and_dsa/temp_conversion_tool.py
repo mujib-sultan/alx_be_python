@@ -1,6 +1,6 @@
 
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  # Conversion factor for Fahrenheit to Celsius
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9  # Conversion factor for Fahrenheit to Celsius
   # Conversion factor for Celsius to Fahrenheit
 FREEZING_POINT_FAHRENHEIT = 32  # Freezing point in Fahrenheit
 
